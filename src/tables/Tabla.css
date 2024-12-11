@@ -1,0 +1,31 @@
+.tabla-container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.tabla-usuarios {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-usuarios th, .tabla-usuarios td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.tabla-usuarios th {
+    background-color: #f4f4f4;
+}
+
+.tabla-usuarios button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.tabla-usuarios button:hover {
+    background-color: #d32f2f;
+}
